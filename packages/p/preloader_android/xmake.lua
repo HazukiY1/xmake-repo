@@ -1,11 +1,11 @@
 package("preloader_android")
-    set_homepage("https://github.com/LiteLDev/preloader-android")
+    set_homepage("https://github.com/HazukiY1/preloader-android")
     set_description("The preloader package")
     set_kind("library")
-    add_urls("https://github.com/LiteLDev/preloader-android/archive/refs/tags/$(version).tar.gz",
-             "https://github.com/LiteLDev/preloader-android.git")
+    add_urls("https://github.com/HazukiY1/preloader-android/archive/refs/tags/$(version).tar.gz",
+             "https://github.com/HazukiY1/preloader-android.git")
 
-    add_versions("0.1.13", "2b22f5260b172a7b79e3b9db5c5827a9cb4646809424d9414fd36d34c14859b3")
+    add_versions("0.1.0", "FF492540672875134EBF1C17398254EE6D79CD3FA8B70AACDB85747E7815B4B1")
 
     add_deps("cmake")
 
