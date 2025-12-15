@@ -5,7 +5,7 @@ package("preloader_android")
     add_urls("https://github.com/HazukiY1/preloader-android/archive/refs/tags/$(version).tar.gz",
              "https://github.com/HazukiY1/preloader-android.git")
 
-    add_versions("0.1.0", "FF492540672875134EBF1C17398254EE6D79CD3FA8B70AACDB85747E7815B4B1")
+    add_versions("v0.1.0", "FF492540672875134EBF1C17398254EE6D79CD3FA8B70AACDB85747E7815B4B1")
 
     add_deps("cmake")
 
